@@ -7,18 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
+.Pythono exclude common Python, C++, and IDE artifacts
 wheels/
 share/python-wheels/
 *.egg-info/
@@ -227,3 +216,5 @@ cython_debug/
 *.exe
 *.out
 *.app
+
+.vscode/
