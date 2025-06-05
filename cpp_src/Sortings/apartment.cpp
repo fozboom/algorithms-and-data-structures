@@ -1,27 +1,26 @@
+#include <algorithm>
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
-int main()
-{
+int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(0);
     std::cout.tie(0);
 
-    int n, m, k;
+    int n;
+    int m;
+    int k;
 
     std::cin >> n >> m >> k;
 
     std::vector<int> a(n);
     std::vector<int> b(m);
 
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 0; i < n; ++i) {
         std::cin >> a[i];
     }
 
-    for (int i = 0; i < m; ++i)
-    {
+    for (int i = 0; i < m; ++i) {
         std::cin >> b[i];
     }
 
@@ -29,8 +28,9 @@ int main()
     std::sort(b.begin(), b.end());
 
     int count = 0;
-    int i = 0, j = 0;
-    
+    int i = 0;
+    int j = 0;
+
     while (i < n && j < m) {
         if (abs(a[i] - b[j]) <= k) {
             count++;
