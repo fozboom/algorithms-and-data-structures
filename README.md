@@ -10,11 +10,17 @@ Solutions to problems from the [CSES Problem Set](https://cses.fi/problemset/).
 
 ### Sorting and Searching
 
-| Problem                                                   | Python Solution                                   | C++ Solution                                        |
-|-----------------------------------------------------------|---------------------------------------------------|-----------------------------------------------------|
-| [Distinct Numbers](https://cses.fi/problemset/task/1621/) | [Solution](./cp-handbook/py_src/Sortings/distinct_numbers.py) | [Solution](./cp-handbook/cpp_src/Sortings/distinct_numbers.cpp) |
-| [Apartments](https://cses.fi/problemset/task/1084/)       | [Solution](./cp-handbook/py_src/Sortings/apartments.py)       | [Solution](./cp-handbook/cpp_src/Sortings/apartment.cpp)        |
-| [Ferris Wheel](https://cses.fi/problemset/task/1090)      | [Solution](./cp-handbook/py_src/Sortings/ferris_wheel.py)     | [Solution](./cp-handbook/cpp_src/Sortings/ferris_wheel.cpp)     |
+| Problem                                                        | Python Solution                                                   | C++ Solution                                                        |
+|----------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------|
+| [Distinct Numbers](https://cses.fi/problemset/task/1621/)       | [Solution](./cp-handbook/py_src/Sortings/distinct_numbers.py)     | [Solution](./cp-handbook/cpp_src/Sortings/distinct_numbers.cpp)     |
+| [Apartments](https://cses.fi/problemset/task/1084/)             | [Solution](./cp-handbook/py_src/Sortings/apartments.py)           | [Solution](./cp-handbook/cpp_src/Sortings/apartment.cpp)            |
+| [Ferris Wheel](https://cses.fi/problemset/task/1090)            | [Solution](./cp-handbook/py_src/Sortings/ferris_wheel.py)         | [Solution](./cp-handbook/cpp_src/Sortings/ferris_wheel.cpp)         |
+| [Concert Tickets](https://cses.fi/problemset/task/1091)         |                     NEED TO ADD SOLUTION                          | [Solution](./cp-handbook/cpp_src/Sortings/concert_tickets.cpp)      |
+| [Restaurant Customers](https://cses.fi/problemset/task/1619)    | [Solution](./cp-handbook/py_src/Sortings/restaurant_customers.py) |                       NEED TO ADD SOLUTION                          |
+| [Movie Festival](https://cses.fi/problemset/task/1629)          | [Solution](./cp-handbook/py_src/Sortings/movie_festival.py)       |                       NEED TO ADD SOLUTION                          |
+| [Sum of Two Values](https://cses.fi/problemset/task/1640)       | [Solution](./cp-handbook/py_src/Sortings/sum_of_two_values.py)    |                       NEED TO ADD SOLUTION                          |
+| [Maximum Subarray Sum](https://cses.fi/problemset/task/1643)    | [Solution](./cp-handbook/py_src/Sortings/max_subarray_sum.py)     |                       NEED TO ADD  OLUTION                          | 
+
 
 ## LeetCode
 
