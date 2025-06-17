@@ -5,7 +5,7 @@ input = sys.stdin.readline
 n = int(input())
 
 
-movies = []
+movies: list[tuple[int, int]] = []
 for _ in range(n):
     start, end = map(int, input().split())
     movies.append((start, end))
