@@ -30,6 +30,30 @@ class Solution {
     }
 };
 
+class Solution2 {
+   public:
+    static int Rob(vector<int>& nums) {
+        if (nums.size() == 1) {
+            return nums[0];
+        }
+
+        if (nums.size() == 2) {
+            return max(nums[0], nums[1]);
+        }
+
+        vector<int> dp(nums.size());
+
+        dp[0] = nums[0];
+        dp[1] = max(nums[1], nums[0]);
+
+        for (int i = 0; i < nums.size(); ++i) {
+            dp[i] = max(nums[i] + dp[i - 2], dp[i - 1]);
+        }
+
+        return dp.back();
+    }
+};
+
 int main() {
     vector<int> test = {2, 7, 100, 3, 15, 39, 7, 9, 23, 1};  // NOLINT
     vector<int> test2 = {2, 7, 9, 3, 1};                     // NOLINT
