@@ -60,4 +60,7 @@ int main() {
 
     assert(Solution::Rob(test) == 164);
     assert(Solution::Rob(test2) == 12);
+
+    assert(Solution2::Rob(test) == 164);
+    assert(Solution2::Rob(test2) == 12);
 }
