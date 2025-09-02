@@ -27,6 +27,7 @@ Solutions to selected problems from [LeetCode](https://leetcode.com/).
 
 | Problem                                                                                 | Python Solution                                                                 | C++ Solution           |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|------------------------|
+| [1 Two Sum](https://leetcode.com/problems/two-sum/)                                      | [Solution](./Leetcode/easy/1_two_sum.py)                                       |                        |
 | [7 Reverse Integer](https://leetcode.com/problems/reverse-integer/)                     | [Solution](./Leetcode/medium/7_reverse_integer.py)                              |                        |
 | [8 String to Integer](https://leetcode.com/problems/string-to-integer-atoi/)            | [Solution](./Leetcode/medium/8_string_to_integer.py)                            |                        |
 | [62 Unique Paths](https://leetcode.com/problems/unique-paths/)                          | [Solution](./Leetcode/dynamic_programming/medium/62_unique_paths.py)            |                                                                                  |
