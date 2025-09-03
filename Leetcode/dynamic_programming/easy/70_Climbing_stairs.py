@@ -4,15 +4,11 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        if n == 1:
-            return 1
-
         steps = [None] * (n + 1)
 
-        steps[1] = 1  # only 1 step
-        steps[2] = 2  # 1 step + 1 step | 2 steps
+        steps[0] = steps[1] = 1
 
-        for i in range(3, n + 1):
+        for i in range(2, n + 1):
             steps[i] = steps[i - 1] + steps[i - 2]
 
         return steps[n]
