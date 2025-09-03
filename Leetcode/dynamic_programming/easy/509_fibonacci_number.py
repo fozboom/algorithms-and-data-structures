@@ -10,3 +10,10 @@ class Solution:
             dp[i] = dp[i - 2] + dp[i - 1]
 
         return dp[n]
+
+
+def recursive_fib(n: int) -> int:
+    if n <= 1:
+        return n
+
+    return recursive_fib(n - 1) + recursive_fib(n - 2)
